@@ -1,0 +1,20 @@
+SD3
+
+Factory - 10% (Done)
+Observer - 10% (Not Completely Done)
+Strategy - 10% (Done)
+Command - 20% (Done)
+Use of Threads - 10% (Done)
+GUI - 20% (Done)
+Technique Not Taught - 10% (Not Done)
+Report - 10% (Not Done)
+
+Currently - 70%
+
+Overview of Report :-
+
+-Abstract
+-Problem
+	-Game
+-Design Patterns and Threading Used and Explanations
+-UML Diagram
