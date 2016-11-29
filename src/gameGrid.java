@@ -64,10 +64,29 @@ public class gameGrid
         }
         if(visualSquare.getShipsOnSquare().size() > 0)
         {
-            infoForGUI += "Enemies X";
-            infoForGUI += visualSquare.getShipsOnSquare().size();
-            return infoForGUI;
+            if(visualSquare.getShipsOnSquare().size() == 1)
+            {
+                if(visualSquare.getShipsOnSquare().get(0).getClass() == battleCruiser.class)
+                {
+                    infoForGUI = "Battle Cruiser";
+                }
+                if(visualSquare.getShipsOnSquare().get(0).getClass() == battleShooter.class)
+                {
+                    infoForGUI = "Battle Shooter";
+                }
+                if(visualSquare.getShipsOnSquare().get(0).getClass() == battleStar.class)
+                {
+                    infoForGUI = "Battle Star";
+                }
+                return infoForGUI;
+            }
+            else {
+                infoForGUI += "Enemies X";
+                infoForGUI += visualSquare.getShipsOnSquare().size();
+                return infoForGUI;
+            }
         }
+
         return infoForGUI;
     }
 

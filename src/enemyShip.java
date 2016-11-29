@@ -9,4 +9,5 @@ public class enemyShip extends Ship {
 	{
 		System.out.println("YOLO! I'm here lads! xD!");
 	}
+	String shipType;
 }
